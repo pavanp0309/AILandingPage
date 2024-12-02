@@ -3,7 +3,6 @@
 .Header-1{
     font-family: "Tourney", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
     font-style: normal;
     font-variation-settings:
       "wdth" 100;
@@ -13,7 +12,6 @@
 .nav-bar {
     font-family: "Parkinsans", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <100>;
     font-style: normal;
   }
 
@@ -21,7 +19,6 @@
   .hero-1{
     font-family: "Parkinsans", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <100>;
     font-style: normal;
    
   }
@@ -39,7 +36,6 @@
   .Aboutu-1 {
     font-family: "Parkinsans", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <100>;
     font-style: normal;
   }
 
