@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/main.css">
+  <title>Login</title>
+  <!-- Include Tailwind CSS -->
+
+  <script src="https://cdn.tailwindcss.com"></script>
+   
+</head>
+<body class="h-screen w-full flex items-center justify-center bg-gradient-to-r from-purple-700 via-pink-500 to-orange-500 md:bg-cover md:bg-center ">
+  <div class="relative bg-gray-300 shadow-lg rounded-lg w-full sm:max-w-md p-8 sm:h-auto h-screen flex flex-col sm:justify-center">
+    <!-- Close Button -->
+         <!-- Close Button -->
+    <button
+      class=" absolute top-4  right-4 text-gray-600 hover:text-gray-900 focus:outline-none"
+      aria-label="Close"
+      
+    >
+    <a href="home.html">
+      <svg  xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+      </svg></a>
+    </button>
+
+  
+
+    <!-- Login Header start -->
+    <div class="text-center">
+      <h2 class="flex items-center justify-center text-2xl font-bold mb-6">
+        <span>LOG IN</span>
+      
+
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 ml-2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3" />
+        </svg>
+      </h2>
+           
+
+
+    </div>
+    <form>
+
+       <!-- Login Header end -->
+
+      <!-- Email Input start -->
+      <div class="mb-6">
+        <label for="email" class="block text-sm font-medium text-gray-700">EMAIL</label>
+        <input
+          id="email"
+          type="email"
+          placeholder="your@email.com"
+          required
+          class="peer mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md text-gray-900 focus:outline-none focus:ring-1 focus:ring-blue-500 focus:border-blue-500"
+        /> 
+      </div>
+     
+      <!-- Email Input start -->
+
+      <!-- Password Input start-->
+      <div class="mb-6">
+        <label for="password" class="block text-sm font-medium text-gray-700">PASSWORD</label>
+        <div class="relative">
+          <input
+            id="password"
+            type="password"
+            placeholder="Password"
+            required
+            class="peer mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md text-gray-900 focus:outline-none focus:ring-1 focus:ring-blue-500 focus:border-blue-500"
+          />
+          <button
+            type="button"
+            class="absolute inset-y-0 right-0 px-4 text-sm text-blue-500 hover:underline focus:outline-none"
+          >
+            SHOW
+          </button>
+        </div>
+      </div>
+    
+      <!-- Password Input end-->
+
+      <!-- Submit Button start -->
+      <button
+        type="submit"
+        class="w-full py-2 text-white bg-orange-400 rounded-md hover:bg-yellow-500 focus:outline-none focus:ring-2 focus:ring-yellow-300"
+      >
+        LOG IN
+      </button>
+      <!-- Submit Button end -->
+      <!-- Forgot Password Link start-->
+      <div class="mt-4 text-center">
+        <a href="#" class="text-sm text-blue-500 hover:underline">Forgot Password?</a>
+      </div>
+    </form>
+    <!-- Forgot Password Link end-->
+    <!-- Social Login Section  start-->
+    <div class="mt-6 text-center">
+      <p class="text-sm text-black-500 mb-4">OR CONTINUE WITH</p>
+      <div class="flex justify-center space-x-4">
+        <button class="p-2 bg-black rounded-full">
+          <img src="https://cdn-icons-png.flaticon.com/512/732/732224.png" alt="Apple" class="h-6">
+        </button>
+        <button class="p-2 bg-blue-600 rounded-full">
+          <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook" class="h-6">
+        </button>
+        <button class="p-2 bg-gray-200 rounded-full">
+          <img src="https://cdn-icons-png.flaticon.com/512/281/281764.png" alt="Google" class="h-6">
+        </button>
+        <button class="p-2 bg-orange-500 rounded-full">
+          <img src="https://cdn-icons-png.flaticon.com/512/5968/5968555.png" alt="Amazon" class="h-6">
+        </button>
+      </div>
+    </div>
+     <!-- Social Login Section end-->
+
+    <!-- Sign Up Link -->
+    <div class="mt-6 text-center">
+      <p class="text-sm">
+        Don't have an account yet? 
+        <a href="signup.html" class="text-blue-500 hover:underline">Sign Up</a>
+      </p>
+    </div>
+  </div>
+</body>
+</html>
