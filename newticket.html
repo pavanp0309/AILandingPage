@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- main CSS -->
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Tailwind CSS -->
+    <script src="./tailwind-config.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <!-- AOS link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+
+</head>
+<body class="bg-gradient-to-r from-purple-700 via-pink-500 to-orange-500">
+
+    <header class="py-6">
+        <div class="container mx-auto Header-1 flex justify-between items-center px-6 text-white">
+            <a href="./index.html" class="text-2xl ">AiTech</a>
+            <nav class="hidden  md:flex space-x-8 nav-bar">
+                <a href="#link Elearnig page" class="hover:underline">E-Learning</a>
+                <a href="#link ContactUs" class="hover:underline">ContactUs</a>
+                <a href="./services.html" class="hover:underline">Services</a>
+                <a href="# link  about" class="hover:underline">About</a>
+                <a href="#link team" class="hover:underline">Team</a>
+                <a href="#link page" class="hover:underline">Sign Up/Login</a>
+            </nav>
+        </div>
+    </header>
+
+
+    
+    <div class="px-8 md:px-16 lg:px-32">
+        <div class="flex justify-between pt-5 ">
+            <p class="pt-2 text-xl text-white font-bold">Raise a Ticket</p>
+            <button 
+                class="transition duration-500 ease-in-out text-white bg-white bg-opacity-25 hover:bg-opacity-40 transform hover:-translate-y-1 hover:scale-110 rounded-lg py-3 px-8 shadow-lg"
+                data-aos="zoom-in"
+                data-aos-duration="1000"><a href="./ticket.html">View ticket</a> </button>
+        </div>
+        <div class="bg-white p-5 my-2 rounded-lg">
+            <form action="" class="py-2">
+                <label for="" class="">Category <span class="text-red-800">*</span></label><br>
+                <select name="" id="" class="w-full my-3 border border-black p-1" aria-placeholder="Select Category" class="">
+                    <option value="" >Select Category</option>
+                    <option value="">Registration - Technical Issue</option>
+                    <option value="">Interviews - Technical Issue</option>
+                    <option value="">Mock Assessment</option>
+                    <option value="">Live Assessments - Technical Issue</option>
+                    <option value="">Document verification Process/Offer-letter</option>
+                    <option value="">Registration - Process Issue</option>
+                    <option value="">Live Assessments - Process Issue</option>
+                    <option value="">Interviews - Process Issue</option>
+                </select><br>
+                <label for="" class="">Subject <span class="text-red-800">*</span></label><br>
+                <input type="text" class="w-full border border-black my-3 p-1" placeholder="Enter the subject" name="" id=""><br>
+
+                <label for="" class="">Describe your issue <span class="text-red-800">*</span></label><br>
+                <textarea name="" class="w-full my-3 p-1 border border-black" id=""></textarea><br>
+                
+                <label for="" class="my-3">Upload Attachment. (Max. file size 3 MB)</label><br>
+                <input class=" w-full my-3 border border-black " id="file_input" type="file">
+
+                <button type="submit" class="bg-blue-600 text-white my-3 p-3 rounded-md">Submit</button>
+            </form>
+        </div>
+    </div>
+
+
+     <!-- Footer -->
+     <footer class="w-full mt-8 py-10 bg-gradient-to-r from-gray-600 to-gray-900 text-white">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12 text-center lg:text-left">
+                <!-- About Section -->
+                <div>
+                    <h4 class="font-bold text-lg mb-4">About Us</h4>
+                    <p class="text-sm">
+                        AI Solutions is dedicated to harnessing the power of AI to transform businesses worldwide. Our innovative solutions cater to businesses of all sizes, enabling efficiency and growth.
+                    </p>
+                </div>
+                <!-- Connect With Us -->
+                <div>
+                    <h4 class="font-bold text-lg mb-4">Connect with Us</h4>
+                    <div class="flex justify-center  lg:justify-start  space-x-6">
+                        <a href="https://www.facebook.com" target="_blank" class="hover:text-blue-500">
+                            <i class="fab fa-facebook fa-2x"></i>
+                        </a>
+                        <a href="https://www.instagram.com" target="_blank" class="hover:text-pink-500">
+                            <i class="fab fa-instagram fa-2x"></i>
+                        </a>
+                        <a href="https://www.linkedin.com" target="_blank" class="hover:text-blue-700">
+                            <i class="fab fa-linkedin fa-2x"></i>
+                        </a>
+                        <a href="https://www.twitter.com" target="_blank" class="hover:text-blue-400">
+                            <i class="fab fa-twitter fa-2x"></i>
+                        </a>
+                    </div>
+                </div>
+                <!-- Make Money With Us -->
+                <div>
+                    <h4 class="font-bold text-lg mb-4">Make Money with Us</h4>
+                    <ul class="text-sm space-y-2">
+                        <li><a href="#" class="hover:underline">Become an Affiliate</a></li>
+                        <li><a href="#" class="hover:underline">Advertise Your Products</a></li>
+                        <li><a href="#" class="hover:underline">Partner with Us</a></li>
+                    </ul>
+                </div>
+                <!-- Let Us Help You -->
+                <div>
+                    <h4 class="font-bold text-lg mb-4">Let Us Help You</h4>
+                    <ul class="text-sm space-y-2">
+                        <li><a href="#" class="hover:underline">Your Account</a></li>
+                        <li><a href="#" class="hover:underline">Help Center</a></li>
+                        <li><a href="#" class="hover:underline">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+            </div>
+    
+            <div class="border-t border-gray-100 mt-8 pt-6 text-center">
+                <p class="text-sm">© 2024 AI Solutions. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <!-- AOS js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
+
+
+
+</body>
+</html>
