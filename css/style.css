@@ -158,3 +158,10 @@
       width: 95%;
     }
   }
+
+/* About us CSS swiper */
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

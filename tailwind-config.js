@@ -77,3 +77,34 @@ navigation: {
 });
 
 
+// Swiper JS About Us page
+
+const swiperAbout = new Swiper('.mySwiperAbout', {
+  slidesPerView: 4, // Default: 4 columns
+  grid: {
+    rows: 2, // Default: 2 rows
+    fill: 'row',
+  },
+  spaceBetween: 20, // Space between cards
+  loop: true, // Infinite loop
+  autoplay: {
+    delay: 1200, // Auto-slide every 2 seconds
+    disableOnInteraction: false, // Keep autoplay running
+  },
+
+  breakpoints: {
+    // For small and medium screens
+    0: {
+      slidesPerView: 2, // 2 columns
+      grid: {
+        rows: 2, // 2 rows
+      },
+    },
+    768: {
+      slidesPerView: 4, // 4 columns
+      grid: {
+        rows: 2, // 2 rows
+      },
+    },
+  },
+});
