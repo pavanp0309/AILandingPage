@@ -1,15 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <!-- main CSS -->
+        <link rel="stylesheet" href="./css/main.css">
+        <link rel="stylesheet" href="./css/style.css">
+        <!-- Tailwind CSS -->
+        <script src="./tailwind-config.js"></script>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+        <!-- AOS link -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+    
+    </head>
 <body class=" bg-gradient-to-r from-purple-700 via-pink-500 to-orange-500" >
-    <div class="grid grid-flow-row grid-cols-1   md:grid-cols-4 md:grid-flow-col   gap-5 text-center ">
+
+    <header class="py-6">
+        <div class="container mx-auto Header-1 flex justify-between items-center px-6 text-white">
+            <a href="./index.html" class="text-2xl ">AiTech</a>
+            <nav class="hidden  md:flex space-x-8 nav-bar">
+                <a href="#link Elearnig page" class="hover:underline">E-Learning</a>
+                <a href="./Contactus.html" class="hover:underline">ContactUs</a>
+                <a href="#" class="hover:underline">Services</a>
+                <a href="# link  about" class="hover:underline">About</a>
+                <a href="#link team" class="hover:underline">Team</a>
+                <a href="./login.html" class="hover:underline">Sign Up/Login</a>
+            </nav>
+        </div>
+    </header>
+
+
+
+
+    <div class="grid grid-flow-row grid-cols-1 p-10  md:grid-cols-4 md:grid-flow-col   gap-5 text-center ">
         
         <!---box-1-->  
   
@@ -48,7 +74,7 @@
               <h1 class="text-2xl font-bold text-left mb-3">Natural Language Processing Specialization Training </h1>
               <p class="text-sm font-semibold text-left mb-3">Combine the power of Data Science,Natural Language Processing and to create powerful  Real-World applications!</p>
               <p class="text-sm text-start mb-5"> Are you looking for a high-paying career? Your search ends here! India is in dire need of Natural Language Processing Course trains you in the relevant tools and skills & prepares you for a secure job with our network of 5000+ hiring partners.</p>
-              <button class="  rounded-full py-3 px-10 text-white font-bold mb-5  bg-gradient-to-r from-red-600 to-orange-500  hover:bg-gradient-to-r from-teal-200 to-blue-600  hover:text-black  "><a href="#"></a>Start Course Now</button>
+              <button class="  rounded-full py-3 px-10 text-white font-bold mb-5  bg-gradient-to-r from-red-600 to-orange-500  hover:text-black  "><a href="#"></a>Start Course Now</button>
   
   
               <div class="  p-5 m-5 border-2 border-gray-400 bg-white ">
@@ -132,6 +158,63 @@
   
   
       </div>
+
+
+
+         <!-- Footer -->
+     <footer class="w-full  py-10 bg-gradient-to-r from-gray-600 to-gray-900 text-white">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12 text-center lg:text-left">
+                <!-- About Section -->
+                <div>
+                    <h4 class="font-bold text-lg mb-4">About Us</h4>
+                    <p class="text-sm">
+                        AI Solutions is dedicated to harnessing the power of AI to transform businesses worldwide. Our innovative solutions cater to businesses of all sizes, enabling efficiency and growth.
+                    </p>
+                </div>
+                <!-- Connect With Us -->
+                <div>
+                    <h4 class="font-bold text-lg mb-4">Connect with Us</h4>
+                    <div class="flex justify-center  lg:justify-start  space-x-6">
+                        <a href="https://www.facebook.com" target="_blank" class="hover:text-blue-500">
+                            <i class="fab fa-facebook fa-2x"></i>
+                        </a>
+                        <a href="https://www.instagram.com" target="_blank" class="hover:text-pink-500">
+                            <i class="fab fa-instagram fa-2x"></i>
+                        </a>
+                        <a href="https://www.linkedin.com" target="_blank" class="hover:text-blue-700">
+                            <i class="fab fa-linkedin fa-2x"></i>
+                        </a>
+                        <a href="https://www.twitter.com" target="_blank" class="hover:text-blue-400">
+                            <i class="fab fa-twitter fa-2x"></i>
+                        </a>
+                    </div>
+                </div>
+                <!-- Make Money With Us -->
+                <div>
+                    <h4 class="font-bold text-lg mb-4">Make Money with Us</h4>
+                    <ul class="text-sm space-y-2">
+                        <li><a href="#" class="hover:underline">Become an Affiliate</a></li>
+                        <li><a href="#" class="hover:underline">Advertise Your Products</a></li>
+                        <li><a href="#" class="hover:underline">Partner with Us</a></li>
+                    </ul>
+                </div>
+                <!-- Let Us Help You -->
+                <div>
+                    <h4 class="font-bold text-lg mb-4">Let Us Help You</h4>
+                    <ul class="text-sm space-y-2">
+                        <li><a href="#" class="hover:underline">Your Account</a></li>
+                        <li><a href="#" class="hover:underline">Help Center</a></li>
+                        <li><a href="#" class="hover:underline">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+            </div>
+    
+            <div class="border-t border-gray-100 mt-8 pt-6 text-center">
+                <p class="text-sm">© 2024 AI Solutions. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
   
       <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
       <script>
